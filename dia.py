@@ -17,7 +17,7 @@ falta2 = dia_go - dia_git
 
 #paginas de git y github
 pag = 500
-pag_actual = 380
+pag_actual = 413
 pag_falta = pag-pag_actual
 
 
@@ -38,7 +38,7 @@ elif (falta.days == 1 ):
      print("Queda",falta.days, "dia, para acabar el curso de Git / Github!!")
      print("Nos faltan:",pag_falta,"para acabar el temario de Git / Github!!\n")
 elif (falta.days == 0 ):
-    print("Hoy es el último dia del curso de Git / Githut!!")
+    print("Hoy",dias.strftime("%A %d-%m-%Y")," es el último dia del curso de Git / Githut!!")
     print("Nos faltan:",pag_falta,"para acabar el temario de Git / Github!!\n")
 else:
     print("Has acabado el curso de Git / Githut!!")
@@ -54,7 +54,7 @@ elif (falta.days == 1 ):
      print("Queda",falta2.days, "dia, para acabar el curso de Git / Github!!")
      print("Nos faltan:",pag_falta_go,"para acabar el temario de Git / Github!!\n")
 elif (falta2.days == 0 ):
-    print("Hoy es el último dia del curso de GO!!")
+    print("Hoy",dias.strftime("%A %d-%m-%Y")," es el último dia del curso de GO!!")
     print("Nos faltan:",pag_falta_go,"para acabar el temario de GO!!\n")
 else:
     print("Has acabado el curso de GO!!")
